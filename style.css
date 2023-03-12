@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+    outline: none !important;
+    outline-style: none !important;
+    box-shadow: none !important;
+    border: none;
+    color: #dcdbdb;
+}
+
+body{
+    background-image: url(images/dag.png);
+    background-repeat: no-repeat;
+    background-color: black !important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+p{
+    text-shadow : 2px 2px 3px black;
+}
+
+button{
+    outline: none;
+}
+
+.nav-link{
+    color: #dcdbdb !important;
+}
+
+.navbar-brand{
+    color: #dcdbdb !important;
+}
+
+.nav-item:hover::after {
+    width: 100%
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #dcdbdb;
+    transition: 0.4s
+}
+
+::-webkit-scrollbar {
+    width: .45rem;
+    background-color: black;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #dcdbdb;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+
+  
